@@ -51,6 +51,8 @@
     "babel-preset-stage-2": "^6.24.1",
     "ejs": "^2.5.7",
     "express": "^4.15.4",
+    "glamor": "^2.20.39",
+    "glamorous": "^4.1.0",
     "nodemon": "^1.11.0",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
