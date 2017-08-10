@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Advanced React",
   "main": "lib/server.js",
+  "config": {
+    "default_port": "8080"
+  },
   "directories": {
     "lib": "lib"
   },
