@@ -9,14 +9,14 @@ ShallowWrapper {
   },
   "length": 1,
   "node": <div>
-    <Article
+    <Article(WithStore)
         article={
             Object {
                 "id": "1",
               }
         }
     />
-    <Article
+    <Article(WithStore)
         article={
             Object {
                 "id": "2",
@@ -26,14 +26,14 @@ ShallowWrapper {
 </div>,
   "nodes": Array [
     <div>
-      <Article
+      <Article(WithStore)
             article={
                   Object {
                         "id": "1",
                       }
             }
       />
-      <Article
+      <Article(WithStore)
             article={
                   Object {
                         "id": "2",
@@ -97,14 +97,14 @@ ShallowWrapper {
       "_pendingStateQueue": null,
       "_renderedComponent": NoopInternalComponent {
         "_currentElement": <div>
-          <Article
+          <Article(WithStore)
                     article={
                               Object {
                                         "id": "1",
                                       }
                     }
           />
-          <Article
+          <Article(WithStore)
                     article={
                               Object {
                                         "id": "2",
@@ -114,14 +114,14 @@ ShallowWrapper {
 </div>,
         "_debugID": 2,
         "_renderedOutput": <div>
-          <Article
+          <Article(WithStore)
                     article={
                               Object {
                                         "id": "1",
                                       }
                     }
           />
-          <Article
+          <Article(WithStore)
                     article={
                               Object {
                                         "id": "2",
