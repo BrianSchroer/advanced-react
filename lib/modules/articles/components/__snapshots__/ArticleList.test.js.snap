@@ -10,37 +10,37 @@ ShallowWrapper {
   "length": 1,
   "node": <div>
     <Article(WithStore)
-        article={
-            Object {
-                "id": "1",
-              }
+      article={
+        Object {
+          "id": "1",
         }
+      }
     />
     <Article(WithStore)
-        article={
-            Object {
-                "id": "2",
-              }
+      article={
+        Object {
+          "id": "2",
         }
+      }
     />
-</div>,
+  </div>,
   "nodes": Array [
     <div>
       <Article(WithStore)
-            article={
-                  Object {
-                        "id": "1",
-                      }
-            }
+        article={
+          Object {
+            "id": "1",
+          }
+        }
       />
       <Article(WithStore)
-            article={
-                  Object {
-                        "id": "2",
-                      }
-            }
+        article={
+          Object {
+            "id": "2",
+          }
+        }
       />
-</div>,
+    </div>,
   ],
   "options": Object {},
   "renderer": ReactShallowRenderer {
@@ -50,16 +50,16 @@ ShallowWrapper {
       "_context": Object {},
       "_currentElement": <ArticleList
         articles={
-                Object {
-                        "article1": Object {
-                          "id": "1",
-                        },
-                        "article2": Object {
-                          "id": "2",
-                        },
-                      }
+          Object {
+            "article1": Object {
+              "id": "1",
+            },
+            "article2": Object {
+              "id": "2",
+            },
+          }
         }
-/>,
+      />,
       "_debugID": 1,
       "_hostContainerInfo": null,
       "_hostParent": null,
@@ -98,37 +98,37 @@ ShallowWrapper {
       "_renderedComponent": NoopInternalComponent {
         "_currentElement": <div>
           <Article(WithStore)
-                    article={
-                              Object {
-                                        "id": "1",
-                                      }
-                    }
+            article={
+              Object {
+                "id": "1",
+              }
+            }
           />
           <Article(WithStore)
-                    article={
-                              Object {
-                                        "id": "2",
-                                      }
-                    }
+            article={
+              Object {
+                "id": "2",
+              }
+            }
           />
-</div>,
+        </div>,
         "_debugID": 2,
         "_renderedOutput": <div>
           <Article(WithStore)
-                    article={
-                              Object {
-                                        "id": "1",
-                                      }
-                    }
+            article={
+              Object {
+                "id": "1",
+              }
+            }
           />
           <Article(WithStore)
-                    article={
-                              Object {
-                                        "id": "2",
-                                      }
-                    }
+            article={
+              Object {
+                "id": "2",
+              }
+            }
           />
-</div>,
+        </div>,
       },
       "_renderedNodeType": 0,
       "_rootNodeID": 0,
@@ -142,15 +142,15 @@ ShallowWrapper {
   "root": [Circular],
   "unrendered": <ArticleList
     articles={
-        Object {
-            "article1": Object {
-              "id": "1",
-            },
-            "article2": Object {
-              "id": "2",
-            },
-          }
+      Object {
+        "article1": Object {
+          "id": "1",
+        },
+        "article2": Object {
+          "id": "2",
+        },
+      }
     }
-/>,
+  />,
 }
 `;
