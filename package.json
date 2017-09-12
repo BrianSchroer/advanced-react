@@ -12,6 +12,7 @@
   },
   "scripts": {
     "test": "jest --watch",
+    "verify-tests": "jest --verbose --coverage",
     "dev": "nodemon --exec babel-node lib/server.js",
     "webpack": "webpack -wd"
   },
@@ -26,11 +27,7 @@
   },
   "homepage": "https://github.com/BrianSchroer/advanced-react#readme",
   "babel": {
-    "presets": [
-      "react",
-      "env",
-      "stage-2"
-    ]
+    "presets": ["react", "env", "stage-2"]
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
