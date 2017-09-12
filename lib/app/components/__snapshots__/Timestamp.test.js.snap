@@ -2,6 +2,6 @@
 
 exports[`Timestamp renders correctly 1`] = `
 <div>
-  timestamp
+  Invalid Date Invalid Date
 </div>
 `;
