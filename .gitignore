@@ -36,6 +36,7 @@ node_modules
 #dist folder
 dist
 public
+build
 
 #Webstorm metadata
 .idea
